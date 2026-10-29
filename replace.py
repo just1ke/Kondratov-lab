@@ -1,0 +1,5 @@
+text= input("введите текст: ")
+count=text.count(":")
+new=text.replace(":","-")
+print(f"замен произошло:{count}")
+print(f"новая строка:{new}")
